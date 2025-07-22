@@ -1,6 +1,6 @@
 ## Instalasi
-1. Buat file .env di root folder, copy isi dari file .env.example ke file .env
-2. composer install / composer update
+1. composer install / composer update
+2. php artisan key:generate
 3. php artisan migrate
 4. php artisan storage:link
 5. php artisan serve
